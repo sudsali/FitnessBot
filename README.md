@@ -37,7 +37,7 @@ FitnessBot is an automated service designed to create personalized workout plans
 
 ## Example Interaction
 ```text
-FitnessBot: Hi there! Welcome to FitnessBot, your personal fitness assistant. What are your fitness goals today? Here are some options: weight loss, muscle gain, endurance, or flexibility.
+FitnessBot: Hi there! Welcome to FitnessBot, your fitness assistant. What are your fitness goals today? Here are some options: weight loss, muscle gain, endurance, or flexibility.
 
 User: I want to lose weight.
 
@@ -65,19 +65,14 @@ FitnessBot: Here’s your workout plan summary: [Plan Details]. Remember to log 
 ```
 
 ## Technology
-FitnessBot leverages OpenAI's GPT-4 for natural language understanding and response generation. The prompts are carefully engineered to ensure accurate and efficient creation of personalized workout plans.
+FitnessBot leverages OpenAI's GPT-3.5 Turbo for natural language understanding and response generation. The prompts are carefully engineered to ensure the accurate and efficient creation of personalized workout plans.
 
 ## Installation and Setup
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/fitnessbot.git
    ```
-2. Navigate to the project directory:
+2. Run the chatbot:
    ```bash
-   cd fitnessbot
-   ```
-
-3. Run the chatbot:
-   ```bash
-   python fitnessbot.py
+   python FitnessBot.py
    ```
